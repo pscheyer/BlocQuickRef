@@ -24,4 +24,18 @@ Mentor expectationsYour mentor will lead your apprenticeship and may adjust the
 
 —contacted Steve at 1200 aug 16 2015 about this project, feeling stuck, needing to re-understand the information to make new correct answers. 
 
+Initialized Github repo on github.com, put files for these notes into folder. Broke notes into the 6 section notes1of6 format. Ran the following code in the folder to achieve this:
+
+cd [into folder, in this case BlocQuickRef in XcodeProj in Desktop]
+git init
+git add .
+git commit -m 'Initial Commit- added bloc foundation pdf files and qlocquickref notes 1of6 file in progress'
+
+[note, had to go through all of frickin' bloc again to find how to sync with a github account using their setup. Github's suggestions are useless too.
+
+git remote add origin https://github.com/pscheyer/BlocQuickRef.git
+git push origin master
+
+Takes a bit. the .pdfs are pretty big.
+
 
