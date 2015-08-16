@@ -29,7 +29,7 @@ Initialized Github repo on github.com, put files for these notes into folder. Br
 cd [into folder, in this case BlocQuickRef in XcodeProj in Desktop]
 git init
 git add .
-git commit -m 'Initial Commit- added bloc foundation pdf files and qlocquickref notes 1of6 file in progress'
+git commit -m 'Initial Commit- added bloc foundation pdf files and blocquickref notes 1of6 file in progress'
 
 [note, had to go through all of frickin' bloc again to find how to sync with a github account using their setup. Github's suggestions are useless too.
 
@@ -37,5 +37,12 @@ git remote add origin https://github.com/pscheyer/BlocQuickRef.git
 git push origin master
 
 Takes a bit. the .pdfs are pretty big.
+
+Saved this file and ran
+
+git add .
+git commit -m 'addl notes on process of initializing git and commits.'
+
+
 
 
