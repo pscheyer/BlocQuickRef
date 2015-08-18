@@ -229,7 +229,7 @@ http://mywiki.wooledge.org/BashGuide
 20
 Assignment:
 Create a directory named chec􏰪kpoint_􏱇ex􏱅ercise in your 􏰶􏰃M􏰅 directory.Navigate into chec􏰪kpoint_􏱇ex􏱅ercise.Create a file named 􏰍bloc_􏱇cl_􏱇check􏰪point.t􏱅xt in the chec􏰪kpoint_􏱇ex􏱅ercise directory.Open and edit 􏰍bloc_􏱇cl_􏱇check􏰪point.t􏱅xt so that it reads, "Hello World!"Print the contents of the file in your shell.Rename 􏰍bloc_􏱇cl_􏱇check􏰪point.t􏱅xt to cl_􏱇check􏰪point.t􏱅xtPrint the contents of the renamed file in your shell again.Copy and paste the output from your history command to show your mentor how you did it.
-Hint (OS X): use open bloc_􏱇cl_􏱇check􏰪point.t􏱅xt to open the file in TextEdit.Hint (Windows): use notepad 􏰍bloc_􏱇cl_􏱇check􏰪point.t􏱅xt to open the file in NotePad. Hint: you can use the cat command to display the contents of a file.
+Hint (OS X): use **open bloc_􏱇cl_􏱇check􏰪point.t􏱅xt** to open the file in TextEdit.Hint (Windows): use **notepad 􏰍bloc_􏱇cl_􏱇check􏰪point.t􏱅xt** to open the file in NotePad. Hint: you can use the **cat** command to display the contents of a file.
 
 Markdown Formatting page:
 https://help.github.com/articles/markdown-basics/
