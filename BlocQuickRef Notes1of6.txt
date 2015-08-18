@@ -155,5 +155,62 @@ You can use cd to change into a directory spotted with ls as well, just type the
 $ cd Xc
 ```
 
+here's a link to more info about unix computing
+https://en.wikipedia.org/wiki/Path_%28computing%29
+16
+A list of useful commands 
+CommandfileGuide```bash
+$mkdir
+```Make a directory.
 ```bash
+$touch``` 
+Determine the type of a file.Create file or change file modification access time.
+```bash
+$cp
+```Copy a file.
+```bash
+$mv```
+Move or rename a file.
+```bash
+$rm
+```Remove a file.
+```bash
+$rmdir```
+Remove a directory.
+
+```bash
+$history```Display a chronological list of the previously issued commands.
+
+It's got an example of the process.
+
+Mkdir makes a folder with the given name in the current directory.
+Use ls to see it. cd into it. 
+use touch to create a new file with the name given, of an unspecified type. 
+use cp to copy the file in the format
+```bash
+$cp bloc_file new_bloc_file
+```
+use mv to move new_bloc_file into renamed_bloc_file
+```bash
+$mv new_bloc_file renamed_bloc_file
+```
+use rm to remove bloc_file.
+then you can cd .. to move up and rm the directory you made, ls to see it's gone, and then use history to see a list of the commands executed in chronological order with the oldest at the top.
+
+18
+Man Pages
+https://en.wikipedia.org/wiki/Man_page
+
+```bash
+$man ls
+```
+will show you the manual for a command, in this case ls. Use j and k, spacebar and u, or up and down arrows to scroll up and down. use q to escape out of the man page.
+
+Command Options are options which can modify the command. a cd with no options will go to the home directory. 
+
+```bash
+$ls -a -l
+```
+will output a lot more info about 
+
 
