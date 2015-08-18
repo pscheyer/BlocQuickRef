@@ -117,3 +117,43 @@ p11 is superfluous.
 
 p12
 # Command Line
+
+Command Line allows devs to navigate filesystem, modify files, execute programs, install software, create new apps, and more. Command line, command line prompt, terminal, and shell are used interchangeably. 
+
+There are many flavors of unix shells.
+The command line is often the only or most efficient way to access systems, install software, and execute programs and tests.
+
+Guide to opening the command line. Got some options for different OSs. OSX has a terminal application, Windows has Git BASH. Linux has Ubuntu's Starting a Terminal section.
+https://help.ubuntu.com/community/UsingTheTerminal
+
+13
+first git command- ls, which tells you what's in the folder you're looking at.
+```bash
+$ls
+```
+(had to review markdown on p18 for that formatting.
+also a video demonstration on that page.
+
+next git command- open ., opens 'this,' the period, the cyrrent directory. Sometimes completes in finder.
+```bash
+$open .
+```
+
+Now it's got a pwd command to print the open directory.
+```bash
+$pwd
+```
+
+Next is cd .., which brings you up one level.
+```bash
+$cd ..
+```
+
+You can use cd to change into a directory spotted with ls as well, just type the first unique portion of the name. So you could put CD XC and then tab if you don't have any other folders in the current directory that use capital X capital C but XCodeProjects.
+
+```bash
+$ cd Xc
+```
+
+```bash
+
