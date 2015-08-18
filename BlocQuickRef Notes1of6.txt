@@ -3,7 +3,8 @@ I'm rereading the entire bloc foundation course with the goal of converting it i
 
 So. Starting off. Notes for every page.
 
-1 Bloc Structure. how much time, apprenticeship, roadmap, appointments, syllabus page1
+1 
+# Bloc Structure. how much time, apprenticeship, roadmap, appointments, syllabus page1
 2 Syllabus p2- 
 -screenhero, 
 -google hangouts/skype, and 
@@ -45,7 +46,8 @@ git commit -m 'addl notes on process of initializing git and commits.'
 
 Moving on. p4
 4 - cut
-5 - install and get to know Xcode
+5 - 
+# install and get to know Xcode
 Xcode includes the IDE, 
 LLVM compiler which turns code you write into an app
 Instruments for mreasuring and tuning your app's performance
@@ -67,9 +69,51 @@ Header Taking XCode for a spin
 Select create a new xcode project from the welcome to xcode menu. Or, press file -> new -> project.
 
 7 Graphic and Algorithm for this application:
-1. SelectApplicationunderiOSinthemenuontheleft2. SelectMaster-DetailApplication3. PressNext4. Enter"hello"intheProductNametextfield5. EnteryournameintheOrganizationNametextfield.Forexample:JohnAppleseed6. Entercom.<youruserhandle>intheCompanyIdentifiertextfield.Forexample:com.john‐appleseed7. SelectObjective-Casyourlanguage8. LeavetheremainingoptionsastheyareandpressNext9. SelectafoldertosaveyourXcodeprojectin,andpressCreate(Tip:youmaywanttocreateanewfoldercalled"XcodeProjects"tokeepeverything organized on your computer).
+1. Select Application under iOS in the menu on the left2. SelectMaster-DetailApplication3. PressNext4. Enter"hello"in the Product Name text field5. Enter your name in the Organization Name text field. For example:JohnAppleseed6. Enter com.<youruserhandle>in the Company Identifier text field. Forexample:com.john‐appleseed7. Select Objective-C as your language8. Leave the remaining options as they are and press Next9. Select a folder to save your Xcode project in, and press Create (Tip: you may want to create a new folder called "XcodeProjects" to keep everything organized on your computer).
+
+Next it describes the 5 main areas of the XCode menu. 
+
+SectionLocationPurposeToolbarAt the top, with the play / pause buttonsEasy access to common functionsNavigatorLeft columnEditorCenter columnFind stuff in your project, like files, compiler warnings, and unit testsUtilitiesRight columnEdit code, user interface files, and build settingsDebug AreaBelow the editor (hidden by default)Miscellaneous tools to make your life easierSee logs and observe what happens while your app runs
+
+p8 has a graphic displaying the portions of the XCode window.
+Some great shortcuts.
+
+⌘0 (command zero)⌥⌘0 (option, command, zero) 
+⇧⌘Y (shift, command, "Y")
+
+XCode has 8 navigators which can be accessed quickly using ⌘1 - ⌘8. There is a graphic displaying where on the GUI to find these things.
+
+⌘1 - Project Navigator
+9 Allows you to add, delete, group, and rearrange files in your XCode project. Click a file here to open it in the editory. Notably, file groupings here are not linked to folder structure in the hard drive. Move files around and they'll stay put on your hard drive.
+
+⌘2 - Symbol Navigator
+Navigate your project's class hierarchy. This is useful for finding a specific method or class if you can't remember which file it's in.
+
+This navigator is uncommon, as ⇧⌘O (shift, command, the letter "O") will usually find things quicker.
+
+⌘3 - Find Navigator
+Find and replace any string within your project.
+
+⌘4 - Issue Navigator
+Here XCode displays warnings, errors, and other issues found when opening, analyzing, and building your project. Warnings are in yellow and can be ignored. Errors are in red and must be resolved.
+
+⌘5 - Test Navigator
+Navigate through and run your app's unit tests.
+
+⌘6 - Debug Navigator
+While app is running, see the app's threads and associated stack information. This is what the app is doing while it runs, allowing you to compare this to what you're expecting. You do this when something isn't working correctly.
+
+⌘7 Breakpoint Navigator
+Breakpoints are used in debugging, they pause your app when it reaches a certain line of code or condition so you can inspect what's happening.
+
+⌘8 - Log Navigator
+Various tasks generate log files, such as building the app and continuous integration. These logs are displayed here. 
+
+10 - Assignment for this section, Install and Get to Know XCode.
+1. Use the ⇧⌘O keyboard shortcut to find the viewDidLoad method in the DetailViewController class.(This is referred to as [DetailViewController ‐viewDidLoad].)2. Set a breakpoint on the line that calls[selfconfigureView];by clicking on the line number.3. Press ⌘7 to activate the BreakpointNavigator. Observe your breakpoint in the navigator.4. Drag your breakpoint out of the navigator to remove it.5. Press ⌘1 to activate the Project Navigator.6. Click on MasterViewController. m to open it in the Editor.7. Delete the } at the end of the viewDidLoad method. Some errors and warnings will appear.8. Press ⌘4 to activate the Issue Navigator. Observe the issues that appear.9. Press the play button in the toolbar. After you see the "Build Failed" alert, press ⌘8 to activate the Log Navigator.10. Browse the logs.You should now have a basic understanding of the Xcode interface, especially how the Navigator and Editor areas interact. Send a message to your mentor with the questions you have.
 
 
+p11 is superfluous.
 
-
-
+p12
+# Command Line
