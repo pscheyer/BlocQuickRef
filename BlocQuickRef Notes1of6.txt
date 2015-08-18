@@ -43,6 +43,24 @@ Saved this file and ran
 git add .
 git commit -m 'addl notes on process of initializing git and commits.'
 
+Moving on. p4
+4 - cut
+5 - install and get to know Xcode
+Xcode includes the IDE, 
+LLVM compiler which turns code you write into an app
+Instruments for mreasuring and tuning your app's performance
+iOS simulator for running your app on your computer
+the latest OSX and iOS SDKs, which make it simpler to write native apps for these platforms. Followed link to SDK- a set of software dev tools allowing creation of apps for specific platforms.
+
+Recommends we sign up for the developer program allowing testing, debugging, directly on iOS devices.
+Gives access to unreleased betas of iOS and XCode
+grants access to pple dev forums, where you can ask questions of apple engineers and other knowledgeable people.
+lets you distribute apps on the app store.
+
+Starts with configuring XCode.
+
+p6
+
 
 
 
