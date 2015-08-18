@@ -59,7 +59,16 @@ lets you distribute apps on the app store.
 
 Starts with configuring XCode.
 
-p6
+p6 update XCode preferences. 
+Add your account if you signed up for dev
+A graphic on how the preferences should be updated. 
+
+Header Taking XCode for a spin
+Select create a new xcode project from the welcome to xcode menu. Or, press file -> new -> project.
+
+7 Graphic and Algorithm for this application:
+1. SelectApplicationunderiOSinthemenuontheleft2. SelectMaster-DetailApplication3. PressNext4. Enter"hello"intheProductNametextfield5. EnteryournameintheOrganizationNametextfield.Forexample:JohnAppleseed6. Entercom.<youruserhandle>intheCompanyIdentifiertextfield.Forexample:com.john‐appleseed7. SelectObjective-Casyourlanguage8. LeavetheremainingoptionsastheyareandpressNext9. SelectafoldertosaveyourXcodeprojectin,andpressCreate(Tip:youmaywanttocreateanewfoldercalled"XcodeProjects"tokeepeverything organized on your computer).
+
 
 
 
