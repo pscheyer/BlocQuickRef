@@ -235,4 +235,62 @@ Markdown Formatting page:
 https://help.github.com/articles/markdown-basics/
 21 empty page
 
+22
+#Git and Github
+
+Devs use source tracking systems, mechanisms which allow them to share a consistent code base while remaining autonomous on separate computers. This is known as **version control. **
+[Introduction to Git](https://www.bloc.io/resources/introduction-to-git)
+
+##GitHub
+GitHub is a service which maintains a copy of your **repository **, another term for code base, in the cloud. [make a git acct](https://github.com/)
+
+##Command Line Tool
+Download and Install git for osx, 
+
+##Git Identity
+perform the following terminal commands 
+```bash
+$ git config —global user.name "FirstName LastName"
+```
+
+When contributing to large projects a cocontributor may want to communicate with you, give them a chance by configuring your email. 
+
+```bash
+$ git config —global user.email you@website.com
+```
+
+##Push Configuration
+set up git to use simple pushing
+
+```bash
+$ git config —global push.default simple
+```
+Alternative is matching, [stack overflow discussion of difference](http://stackoverflow.com/questions/19720711/git-push-warning-questions/19723478#19723478)
+
+##SSH Keys
+Follow [these instructions](https://help.github.com/articles/generating-ssh-keys/#platform-mac) to generate an SSH key for your machine. 
+ 
+20150820 1435CST
+K. We're instructed to fork Bloc's iOS exercise repository. https://github.com/Bloc/ios-exercises
+
+I'd already forked it. I'll clear that out and go again.
+cloned repo into my desktop using button in github GUI, renamed ios-exercises COMPLETED, then deleted my personal repo of the exercises and forked the original anew.
+
+20150821 1945CST
+Now I'm supposed to use git clone, but i already copied them using the github gui, so i'm moving on.
+
+Now we cd into that folder (ios-exercises in xcode projects, for me)and run git status.
+
+Mine needed to have two files added and committed- changes in stuffrememberer.h and .m from the looks of it. Now i'm checking the remotes with 
+```bash
+$ git remote -v
+origin	git@github.com:pscheyer/ios-exercises (fetch)
+origin	git@github.com:pscheyer/ios-exercises (push)
+upstream	https://github.com/Bloc/ios-exercises.git (fetch)
+upstream	https://github.com/Bloc/ios-exercises.git (push)
+```
+With that output I know that the upstream and downstream repos are already set up.
+
+20150821 1945CST
+and i resolved an issue with a [merge conflict](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/). Just deleted the merge conflict tags.
 
