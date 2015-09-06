@@ -294,3 +294,33 @@ With that output I know that the upstream and downstream repos are already set u
 20150821 1945CST
 and i resolved an issue with a [merge conflict](https://help.github.com/articles/resolving-a-merge-conflict-from-the-command-line/). Just deleted the merge conflict tags.
 
+
+20150906 1119CST
+now merging with 
+```bash
+$ git fetch upstream
+```
+
+output was
+```bash
+Peters-MacBook-Pro:ios-exercises peterscheyer$ git fetch upstream
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 1
+Unpacking objects: 100% (1/1), done.
+From https://github.com/Bloc/ios-exercises
+   df954b4..cf1878a  master     -> upstream/master
+```
+next we need to merge the upstream changes
+```bash
+$ git merge upstream/master
+```
+
+Ran into a bunch of conflicts. Just cleaned the folder and redownloaded.
+
+20150906 1128CST
+
+PAGE 26 - 31 git stuff
+
+20150906 1131CST
+in the harsh light of day i think this project is fundamentally misguided- I'm trying to recreate the entire bloc curriculum in a text format for the sake of some sort of magic bullet document. I should be growing accustomed to rereading notes and googling up to date parts and reading back through it with ctrl_f for specific facts. I'm going back to my multipeer project.
+
